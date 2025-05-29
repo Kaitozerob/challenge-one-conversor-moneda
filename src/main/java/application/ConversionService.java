@@ -10,7 +10,6 @@ public class ConversionService {
     }
 
     public double convert(double amount, double exchangeRate) {
-        // Aquí puedes agregar validaciones o lógica adicional si es necesario
         return converter.convert(amount, exchangeRate);
     }
 }

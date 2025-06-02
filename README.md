@@ -1,3 +1,4 @@
+
 # Java Currency Converter - Challenge ONE - Alura Latam
 
 This project is part of the Alura Latam Challenge for Oracle ONE. It is a desktop application developed in Java with a graphical user interface using Swing. The main goal is to convert currencies and provide a user-friendly experience.
@@ -20,7 +21,21 @@ This project is part of the Alura Latam Challenge for Oracle ONE. It is a deskto
 ```
 ConversorDeMonedas/
 ├── src/
-│   └── Main.java
+│   └── main/
+│       ├── java/
+│       │   ├── app/
+│       │   │   └── App.java
+│       │   ├── application/
+│       │   │   └── ConversionService.java
+│       │   ├── domain/
+│       │   │   ├── Currency.java
+│       │   │   └── CurrencyConverter.java
+│       │   ├── infrastructure/
+│       │   │   └── ExchangeRateApi.java
+│       │   └── ui/
+│       │       ├── MainWindow.java
+│       │       └── UserInputValidator.java
+│       └── resources/
 ├── .gitignore
 ├── ConversorDeMonedas.iml
 └── README.md
@@ -34,7 +49,7 @@ git clone https://github.com/KaitozeroB/challenge-one-conversor-moneda.git
 ```
 
 2️⃣ Open it in IntelliJ IDEA (or your preferred Java IDE).  
-3️⃣ Compile and run the `Main.java` file to start the application.
+3️⃣ Compile and run the `App.java` file to start the application.
 
 ## 📝 License
 
